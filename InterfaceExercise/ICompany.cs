@@ -8,5 +8,7 @@ namespace InterfaceExercise
 {
     internal interface ICompany
     {
+       public string CompanyProfit { get; set; }
+        public string CompanyName { get; set;}
     }
 }

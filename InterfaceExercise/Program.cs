@@ -8,24 +8,24 @@ namespace InterfaceExercise
         {
             //TODO Be sure to follow BEST PRACTICES when creating classes and interfaces
 
-            //Create 2 Interfaces called IVehicle & ICompany
+            //Create 2 Interfaces called IVehicle....-DoNE & ICompany..._DONE
 
-            //Create 3 classes called Car , Truck , & SUV
+            //Create 3 classes called Car , Truck , & SUV...._DONE
 
             //In your IVehicle
             
                 /* Create 4 members that Car, Truck, & SUV all have in common.
-                 * Example: All vehicles have a number of wheels... for now..
+                 * Example: All vehicles have a number of wheels... for now............_DONE
                  */
             
 
             //In ICompany
             
-                /*Create 2 members that are specific to each every company
+                /*Create 2 members that are specific to each every company.
                  * regardless of vehicle type.
                  *
                  *
-                 * Example: public string Logo { get; set; }
+                 * Example: public string Logo { get; set; }.........._DONE
                  */
 
             //In each of your car, truck, and suv classes
