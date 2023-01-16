@@ -6,15 +6,24 @@ using System.Threading.Tasks;
 
 namespace InterfaceExercise
 {
-    internal class Truck : IVehicle
+    internal class Truck : IVehicle, ICompany
     {
+        public Truck()
+        {
+            Year = 2012;
+            EngineSize = 8.0;
+        }
         public string TruckBed { get; set; }
         public bool FourWheelDrive { get; set; }
-        public int Tires { get; set; }
-        public string Motor { get; set; }
-        public string Seats { get; set; }
-        public string Accelerator { get; set; }
-        public string CompanyProfit { get; set; }
-        public string CompanyName { get; set; }
+        public int Year { get; set; }
+        public string Make { get; set; }
+        public string Model { get; set; }
+        public double EngineSize { get; set; }
+        public string Name { get; set; }
+
+        public string Motto { get; set; }    
+        public string CorpName { get; set; }
+
+     
     }
 }
