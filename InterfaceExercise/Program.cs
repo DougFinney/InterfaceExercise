@@ -66,13 +66,12 @@ namespace InterfaceExercise
             };
 
             vehicle.Add(Utility);
-
-
-
+            
             foreach (var veh in vehicle)
             {
                 
                 Console.WriteLine($"This {veh.Name} vehicle is a {veh.Year}... {veh.Make}, {veh.Model}.");
+                
 
             }
         }

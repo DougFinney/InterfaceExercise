@@ -21,7 +21,7 @@ namespace InterfaceExercise
         public double EngineSize { get; set; }
         public string Name { get; set; }
 
-        public string Motto { get; set; }   
+        public string Motto { get; set; }
         public string CorpName { get; set; }
 
       
